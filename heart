@@ -1,0 +1,33 @@
+	def draw_heart():
+    """
+    Function to draw a heart shape using ASCII art.
+ 
+    Returns:
+    - str:
+        The heart shape as a string.
+ 
+    Example:
+    >>> print(draw_heart())
+     @@@   @@@
+    @   @ @   @
+    @    @    @
+     @       @
+      @     @
+       @   @
+        @ @
+         @
+    """
+ 
+    heart = "     @@@   @@@\n" \
+            "    @   @ @   @\n" \
+            "    @    @    @\n" \
+            "     @       @\n" \
+            "      @     @\n" \
+            "       @   @\n" \
+            "        @ @\n" \
+            "         @"
+ 
+    return heart
+ 
+# Example usage:
+print(draw_heart())
